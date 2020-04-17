@@ -18,6 +18,8 @@ static inline void error(const char *fmt, ...)
 	printf("\n");
 }
 
+#define ASSERT(c) assert(c)
+
 #define BTRFS_UUID_UNPARSED_SIZE	37
 
 /*
