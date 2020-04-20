@@ -409,7 +409,6 @@ int btrfs_lookup_path(struct btrfs_root *root, u64 ino, const char *filename,
 	}
 
 	while (*cur != '\0') {
-
 		cur = skip_current_directories(cur);
 		len = next_length(cur);
 		if (len > BTRFS_NAME_LEN) {
