@@ -24,6 +24,7 @@ static inline void error(const char *fmt, ...)
 
 /* No <linux/limits.h> so have to define it here */
 #define XATTR_NAME_MAX		255
+#define PATH_MAX		4096
 
 /*
  * Macros to generate set/get funcs for the struct fields
